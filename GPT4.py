@@ -26,3 +26,9 @@ model_path = os.path.abspath("ggml-model-gpt4all-falcon-q4_0.bin")
 llm=GPT4All(model=model_path,verbose=None,backend="gptj")
 model = GPTNeoForCausalLM.from_pretrained("EleutherAI/gpt-neo-2.7B")
 tokenizer = GPT2Tokenizer.from_pretrained("EleutherAI/gpt-neo-2.7B")
+
+query = "Can you summarize the document?"
+input_ids = tokenizer.encode(query, return_tensors="pt")
+output = model.generate(input_ids, max_length=100, num_return_sequences=1)
+response = tokenizer.decode(output[0], skip_special_tokens=True)
+print(response)
