@@ -1,0 +1,11 @@
+passage = "The Eiffel Tower is a wrought-iron lattice tower located on the Champ de Mars in Paris, France."
+question = "Where is the Eiffel Tower located?"
+
+passage = "The Apollo program, also known as Project Apollo, was the third United States human spaceflight program carried out by NASA, which succeeded in landing the first humans on the Moon in 1969."
+question = "What was the goal of the Apollo program?"
+
+passage = "The quick brown fox jumps over the lazy dog."
+question = "What animal jumps over the dog?"
+
+passage = "vignesh and yogesh is friend"
+question = "vignesh friend is who?"

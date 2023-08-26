@@ -1,0 +1,21 @@
+1.torch
+2.opencv-python
+3.Pillow
+4.flask
+5.openai
+6.streamlit
+7.pdfminer.six
+8.pip3 install -U pypdfium2
+9.pip install PyMuPDF
+10.pip install tiktoken
+11.pip install faiss-cpu
+12.pip install flask
+13.pip install pypdf
+14.pip install sentence_transformers
+15.pip install chromadb
+16.pip install simpletransformers
+17.pip install PyPDF2
+18.git clone https://github.com/openai/openai-quickstart-node.git
+19.cd openai-quickstart-node
+20.cp .env.example .env
+21.pip install langchain[tfidf]
